@@ -49,34 +49,34 @@ public class ArraySum {
 			}
 		}
 	}
+
+        public void criticalSQLInjection20(String userInput) throws SQLException {
+        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/criticaldb", "admin", "admin123");
+        Statement stmt = conn.createStatement();
+        stmt.execute("DELETE FROM users WHERE username = '" + userInput + "'"); // Dangerous write operation
+    }
+
+        public void criticalSQLInjection20(String userInput) throws SQLException {
+        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/criticaldb", "admin", "admin123");
+        Statement stmt = conn.createStatement();
+        stmt.execute("DELETE FROM users WHERE username = '" + userInput + "'"); // Dangerous write operation
+    }
+
+        public void criticalSQLInjection20(String userInput) throws SQLException {
+        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/criticaldb", "admin", "admin123");
+        Statement stmt = conn.createStatement();
+        stmt.execute("DELETE FROM users WHERE username = '" + userInput + "'"); // Dangerous write operation
+    }
+
+        public void criticalSQLInjection20(String userInput) throws SQLException {
+        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/criticaldb", "admin", "admin123");
+        Statement stmt = conn.createStatement();
+        stmt.execute("DELETE FROM users WHERE username = '" + userInput + "'"); // Dangerous write operation
+    }
+
+        public void criticalSQLInjection20(String userInput) throws SQLException {
+        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/criticaldb", "admin", "admin123");
+        Statement stmt = conn.createStatement();
+        stmt.execute("DELETE FROM users WHERE username = '" + userInput + "'"); // Dangerous write operation
+    }
 }
-
-    public void criticalSQLInjection20(String userInput) throws SQLException {
-        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/criticaldb", "admin", "admin123");
-        Statement stmt = conn.createStatement();
-        stmt.execute("DELETE FROM users WHERE username = '" + userInput + "'"); // Dangerous write operation
-    }
-
-        public void criticalSQLInjection20(String userInput) throws SQLException {
-        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/criticaldb", "admin", "admin123");
-        Statement stmt = conn.createStatement();
-        stmt.execute("DELETE FROM users WHERE username = '" + userInput + "'"); // Dangerous write operation
-    }
-
-        public void criticalSQLInjection20(String userInput) throws SQLException {
-        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/criticaldb", "admin", "admin123");
-        Statement stmt = conn.createStatement();
-        stmt.execute("DELETE FROM users WHERE username = '" + userInput + "'"); // Dangerous write operation
-    }
-
-        public void criticalSQLInjection20(String userInput) throws SQLException {
-        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/criticaldb", "admin", "admin123");
-        Statement stmt = conn.createStatement();
-        stmt.execute("DELETE FROM users WHERE username = '" + userInput + "'"); // Dangerous write operation
-    }
-
-        public void criticalSQLInjection20(String userInput) throws SQLException {
-        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/criticaldb", "admin", "admin123");
-        Statement stmt = conn.createStatement();
-        stmt.execute("DELETE FROM users WHERE username = '" + userInput + "'"); // Dangerous write operation
-    }
